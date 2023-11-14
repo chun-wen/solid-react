@@ -1,10 +1,7 @@
-import axios from "axios";
-import { useEffect, useMemo, useState } from "react";
-import { Product } from "./product";
-import { Rating } from "react-simple-star-rating";
 import { Filter, filterProducts } from "./filter";
 import { useProducts } from "./hooks/useProducts";
 import { useRateFilter } from "./hooks/useRateFilter";
+import { Product } from "./product";
 
 export function Good() {
   const { products } = useProducts();
