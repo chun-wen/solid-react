@@ -12,16 +12,21 @@
     "@tanstack/react-query": "^4.10.1",
     "@tanstack/react-query-devtools": "^4.10.1",
     "axios": "^1.1.2",
-    "clsx": "^1.2.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.292.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
     "react-rating-stars-component": "^2.2.0",
     "react-simple-star-rating": "^5.1.6",
-    "styled-components": "^5.3.6"
+    "styled-components": "^5.3.6",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@types/node": "^20.9.0",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@types/react-icons": "^3.0.0",
